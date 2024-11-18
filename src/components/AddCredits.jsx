@@ -52,11 +52,8 @@ function AddCredits() {
               <h2 className="text-lg font-semibold -mt-1">
                 15000 <span className="text-base font-light">Credits</span>
               </h2>
-
-              <h3>30% off</h3>
             </div>
           </div>
-          <h2 className="mt-4">or</h2>
         </Card>
       </div>
       <h2 className="mt-4">or</h2>
