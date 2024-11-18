@@ -2,6 +2,7 @@ import { useState } from "react";
 import Input from "../ui/Input";
 import Card from "./Card";
 import Button from "../ui/Button";
+import CreditsIcon from "../assets/icon.svg";
 
 function AddCredits() {
   const [inputText, setInputText] = useState("");
@@ -40,7 +41,23 @@ function AddCredits() {
             Choose from our most purchased options
           </h3>
         </div>
-        <Card></Card>
+        <Card>
+          <div className="flex items-start mt-2">
+            <img
+              src={CreditsIcon}
+              alt="Credits Icon"
+              className="w-5 h-5 mr-2"
+            />
+            <div className="flex justify-end">
+              <h2 className="text-lg font-semibold -mt-1">
+                15000 <span className="text-base font-light">Credits</span>
+              </h2>
+
+              <h3>30% off</h3>
+            </div>
+          </div>
+          <h2 className="mt-4">or</h2>
+        </Card>
       </div>
       <h2 className="mt-4">or</h2>
       <div>
