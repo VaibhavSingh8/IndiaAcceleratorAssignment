@@ -2,4 +2,4 @@ India Accelerator assignment
 
 UI Screenshot:
 
-![UI Screenshot](https://github.com/user-attachments/assets/217b2265-bdfc-450e-94c2-4164b3056ac7)
+<img width="1470" alt="Screenshot 2024-11-18 at 3 11 40 PM" src="https://github.com/user-attachments/assets/f4aa54ea-8b57-4e16-9756-1bf0751224af">
